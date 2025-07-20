@@ -117,3 +117,30 @@ body{
     cursor: pointer;
     color: #676770;
 }
+
+.form-control:focus{
+    outline: none;
+}
+
+.input-box .input-field:focus-within{
+    outline: 2px solid #eeadf1;
+}
+
+.radio-container{
+    grid-column: span 2;
+}
+
+.gender_inputs{
+    display: flex;
+    gap: 20px;
+}
+
+.radio-box {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.form-control[type="radio"]{
+    accent-color: #eeadf1;
+}
