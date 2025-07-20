@@ -144,3 +144,11 @@ body{
 .form-control[type="radio"]{
     accent-color: #eeadf1;
 }
+
+@media screen and (max-width: 500px) {
+    #form_container {
+        width: 100%;
+        min-height: 100vh;
+        padding: 32px;
+    }
+}
