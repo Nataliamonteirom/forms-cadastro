@@ -41,6 +41,11 @@ body{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.btn-default:hover{
+    background-color: #f9d3f9;
 }
 
 #form_header{
@@ -64,4 +69,17 @@ body{
     background-color: #eeadf1;
     left: 0;
     bottom:  0;
+}
+
+#form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+}
+
+#input_container{
+    display: grid;
+    gap: 24px;
 }
