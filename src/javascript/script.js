@@ -1,3 +1,8 @@
+const form = document.querySelector('#form')
+
+
+
+
 const passwordIcons = document.querySelectorAll('.password-icon');
 
 passwordIcons.forEach(icon => {
